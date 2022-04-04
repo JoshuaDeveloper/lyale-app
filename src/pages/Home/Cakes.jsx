@@ -1,8 +1,9 @@
 import React from "react";
+import "./cakes.scss";
 
 export default function Cakes() {
     return (
-        <div>
+        <div className="cakes-style">
             <div className="container">
                 <div className="row">
                     <div className="col">
@@ -39,8 +40,8 @@ export default function Cakes() {
                             </div>
                         </div>
                         <select
-                            class="form-select form-select-lg mb-3"
-                            aria-label=".form-select-lg example"
+                            class="form-select form-select-sm mb-3"
+                            aria-label=".form-select-sm example"
                         >
                             <option selected>
                                 Número de Porciones Aproximadas

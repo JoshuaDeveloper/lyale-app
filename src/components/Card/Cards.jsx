@@ -1,7 +1,7 @@
 import React from "react";
 import "./cards.scss";
 import { Link } from "react-router-dom";
-import CardM from "../../assets/images/Cards/pie_de_manzana.jpg";
+import CardM from "../../assets/images/Cards/torta_pascua.jpg";
 import CardR from "../../assets/images/Cards/bocaditos.jpg";
 import CardT from "../../assets/images/Cards/tres_leches.jpg";
 import CardC from "../../assets/images/Cards/chocolate.jpg";
@@ -16,7 +16,7 @@ export default function Cards() {
                         className="card-img-top img-thumbnail"
                         alt="tortas"
                     />
-                    <div className="card-body">
+                    <div className="card-body text-center">
                         <h5 classNameName="card-title">Tortas</h5>
                         <p className="card-text">
                             This is a wider card with supporting text below as a
@@ -34,7 +34,7 @@ export default function Cards() {
                         className="card-img-top img-thumbnail"
                         alt="bocaditos"
                     />
-                    <div className="card-body">
+                    <div className="card-body text-center">
                         <h5 className="card-title">Bocaditos</h5>
                         <p className="card-text">
                             This is a wider card with supporting text below as a
