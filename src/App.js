@@ -6,7 +6,6 @@ import Carousel from "./components/Carousel/Carousel.jsx";
 function App() {
     return (
         <div>
-            <Navbar></Navbar>
             <Carousel></Carousel>
         </div>
     );

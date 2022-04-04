@@ -1,45 +1,15 @@
 import React from "react";
 import "./navbar.scss";
+import Logo from "../../assets/images/logo_sin_fondo.png";
 
 export default function Navbar() {
     return (
-        <div>
+        <div className="navbar-style">
             <nav className="navbar navbar-expand-lg navbar-light bg-tranparent">
-                <div className="container">
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div
-                        className="collapse navbar-collapse flex justify-content-center"
-                        id="navbarNavAltMarkup"
-                    >
-                        <div className="navbar-nav navbar-a">
-                            <a
-                                className="nav-link"
-                                aria-current="page"
-                                href="#"
-                            >
-                                Tortas
-                            </a>
-                            <a className="nav-link" href="#">
-                                Cootiza
-                            </a>
-                            <a className="nav-link" href="#">
-                                Bocaditos
-                            </a>
-                            <a className="nav-link" href="#">
-                                Blog
-                            </a>
-                        </div>
-                    </div>
+                <div className="container flex justify-content-center">
+                    <a href="#">
+                        <img src={Logo} alt="logo"></img>
+                    </a>
                 </div>
             </nav>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./cards.scss";
+import { Link } from "react-router-dom";
 import CardM from "../../assets/images/Cards/pie_de_manzana.jpg";
 import CardR from "../../assets/images/Cards/bocaditos.jpg";
 import CardT from "../../assets/images/Cards/tres_leches.jpg";
@@ -23,9 +24,9 @@ export default function Cards() {
                             is a little bit longer.
                         </p>
                     </div>
-                    <a href="#" className="btn btn-success">
-                        Disponible
-                    </a>
+                    <Link to="/cakes" className="btn btn-access">
+                        Cootiza
+                    </Link>
                 </div>
                 <div className="card">
                     <img
@@ -41,27 +42,27 @@ export default function Cards() {
                             is a little bit longer.
                         </p>
                     </div>
-                    <a href="#" className="btn btn-dark">
-                        Disponible
-                    </a>
+                    <Link to="/sweetmeats" className="btn btn-access">
+                        Cootiza
+                    </Link>
                 </div>
-                <div className="card">
+                {/* <div className="card">
                     <img
                         src={CardT}
                         className="card-img-top img-thumbnail"
                         alt="cootiaza"
                     />
                     <div className="card-body">
-                        <h5 className="card-title">Cootiza</h5>
+                        <h5 className="card-title">Fraps</h5>
                         <p className="card-text">
                             This is a wider card with supporting text below as a
                             natural lead-in to additional content. This content
                             is a little bit longer.
                         </p>
                     </div>
-                    <a href="#" className="btn btn-danger">
-                        Acabado
-                    </a>
+                    <Link to="/fraps" className="btn btn-access">
+                        Disponible
+                    </Link>
                 </div>
                 <div className="card">
                     <img
@@ -70,17 +71,17 @@ export default function Cards() {
                         alt="blog"
                     />
                     <div className="card-body">
-                        <h5 className="card-title">Blog</h5>
+                        <h5 className="card-title">Café</h5>
                         <p className="card-text">
                             This is a wider card with supporting text below as a
                             natural lead-in to additional content. This content
                             is a little bit longer.
                         </p>
                     </div>
-                    <a href="#" className="btn btn-danger">
-                        Acabado
-                    </a>
-                </div>
+                    <Link to="/cofee" className="btn btn-access">
+                        Disponible
+                    </Link>
+                </div> */}
             </div>
         </div>
     );
